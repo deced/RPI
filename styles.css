@@ -24,9 +24,7 @@
     width: 100%;
 }
 
-.logo {
-    margin-right: auto;
-}
+
 
 .d-flex {
     display: flex;
@@ -243,7 +241,6 @@ label {
 .form-control
 {
     border: #e5e5e5 1px solid;
-    border-radius: 5px;
     color: #413d4b;
     padding: 7px;
     resize: none;
@@ -252,6 +249,7 @@ label {
 }
 .form-control:focus
 {
+    outline: none;
     border: 2px solid #ced4da;
 }
 .watch-story
@@ -264,7 +262,20 @@ label {
 .width-250{
     width: 250px;
 }
+.ml-200
+{
+    margin-left: 200px;
+}
+.width-400
+{
+    width: 400px;
+}
+.logo
+{
+    margin-right: 100px;
+    width: 120px;
 
+}
 .roboto{
     font-family: "Roboto", sans-serif;
 }
