@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.background-image-video
+{
+    background: url("video.png") no-repeat center center fixed;
+    height: 800px;
+    background-size: cover;
+}
+.background-image {
+    background: url("Background.png") no-repeat center center fixed;
+    height: 800px;
+    background-size: cover;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navbar {
+    padding-top: 15px;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+h1,h2,h3,h4
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+.color-white
+{
+    color: white;
+}
+.btn
+{
+    border: 2px solid  #00e0d0;
+    background-color: transparent;
+    padding: 15px;
+    color: #00e0d0;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.mt-40{
+    margin-top: 40px;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.mr-100
+{
+    margin-right: 100px;
+}
+.learn-more-margins
+{
+    position: relative;
+    top: 30px;
+    left: 550px;
+}
+.text-align-center {
+    text-align: center;
+    display: block;
+}
+
+.block{
+    margin: 100px;
+}
+.card-image
+{
+    width: 100px;
+    height: 100px;
+}
+.color-black{
+    color: #413d4b;
+}
+
+.align-center{
+ margin-left: auto;
+    margin-right: auto;
+}
+
+.brand-name
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #00e0d0;
+    margin: 20px;
+}
+
+.nav-link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.nav-link-selected {
+    color: #00e0d0;
+}
+.flex-wrap
+{
+    flex-wrap: wrap;
+}
+.justify
+{
+    justify-content: space-between;
+}
+.team-card
+{
+    text-align: center;
+    border: white solid 1px;
+    border-radius: 2px;
+}
+.mb-40
+{
+    margin-bottom: 40px;
+}
+.pt-40
+{
+    padding-top: 40px;
+}
+.size-200
+{
+    width: 200px;
+    height: 200px;
+}
+
+.card{
+    margin-top: 30px;
+    text-align: center;
+}
+.m-40{
+  margin: 40px;
+}
+
+.width-320{
+    width: 320px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+.d-block
+{
+    display: block;
+}
+
+label{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+.name-margin
+{
+    margin-bottom: 3px;
+    margin-top: 10px;
+}
+.nav-link:hover {
+    color: #00e0d0;
+}
+.btn:hover
+{
+background-color: #00e0d0;
+    color: #413d4b;
+}
+.btn
+{
+    cursor: pointer;
+}
+.mb-10
+{
+    margin-bottom: 10px;
+}
+.mx-100
+{
+    margin-left: 100px;
+    margin-right: 100px;
+}
