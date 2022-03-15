@@ -4,12 +4,11 @@
 }
 
 
-.background-image-video
-{
+.background-image-video {
     background: url("video.png") no-repeat center center fixed;
-    height: 800px;
     background-size: cover;
 }
+
 .background-image {
     background: url("Background.png") no-repeat center center fixed;
     height: 800px;
@@ -42,20 +41,20 @@
 ul {
     list-style-type: none;
 }
-h1,h2,h3,h4
-{
+
+h1, h2, h3, h4 {
     margin-top: 20px;
     margin-bottom: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
 }
-.color-white
-{
+
+.color-white {
     color: white;
 }
-.btn
-{
-    border: 2px solid  #00e0d0;
+
+.btn {
+    border: 2px solid #00e0d0;
     background-color: transparent;
     padding: 15px;
     color: #00e0d0;
@@ -66,46 +65,48 @@ h1,h2,h3,h4
     font-weight: 700;
 }
 
-.mt-40{
+.mt-40 {
     margin-top: 40px;
 }
-.mt-60{
+
+.mt-60 {
     margin-top: 60px;
 }
-.mr-100
-{
+
+.mr-100 {
     margin-right: 100px;
 }
-.learn-more-margins
-{
+
+.learn-more-margins {
     position: relative;
     top: 30px;
     left: 550px;
 }
+
 .text-align-center {
     text-align: center;
     display: block;
 }
 
-.block{
+.block {
     margin: 100px;
 }
-.card-image
-{
+
+.card-image {
     width: 100px;
     height: 100px;
 }
-.color-black{
+
+.color-black {
     color: #413d4b;
 }
 
-.align-center{
- margin-left: auto;
+.align-center {
+    margin-left: auto;
     margin-right: auto;
 }
 
-.brand-name
-{
+.brand-name {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     color: #00e0d0;
@@ -123,83 +124,101 @@ h1,h2,h3,h4
 .nav-link-selected {
     color: #00e0d0;
 }
-.flex-wrap
-{
+
+.flex-wrap {
     flex-wrap: wrap;
 }
-.justify
-{
+
+.justify {
     justify-content: space-between;
 }
-.team-card
-{
+
+.team-card {
     text-align: center;
     border: white solid 1px;
     border-radius: 2px;
 }
-.mb-40
-{
+
+.mb-40 {
     margin-bottom: 40px;
 }
-.pt-40
-{
+
+.pt-40 {
     padding-top: 40px;
 }
-.size-200
-{
+
+.size-200 {
     width: 200px;
     height: 200px;
 }
 
-.card{
+.card {
     margin-top: 30px;
     text-align: center;
 }
-.m-40{
-  margin: 40px;
+
+.m-40 {
+    margin: 40px;
 }
 
-.width-320{
+.width-320 {
     width: 320px;
 }
 
-p{
+p {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
 }
 
-.d-block
-{
+.d-block {
     display: block;
 }
 
-label{
+label {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
 }
-.name-margin
-{
+
+.name-margin {
     margin-bottom: 3px;
     margin-top: 10px;
 }
+
 .nav-link:hover {
     color: #00e0d0;
 }
-.btn:hover
-{
-background-color: #00e0d0;
+
+.btn:hover {
+    background-color: #00e0d0;
     color: #413d4b;
 }
-.btn
-{
+
+.btn {
     cursor: pointer;
 }
-.mb-10
+.video
 {
+    width: 100%;
+}
+.mb-10 {
     margin-bottom: 10px;
 }
-.mx-100
-{
+
+.mx-100 {
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.round-play-button
+{
+    position: absolute;
+    left: 660px;
+    top: 1550px;
+    padding: 100px;
+    border-radius: 100%;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    border: solid;
+    cursor: pointer;
 }

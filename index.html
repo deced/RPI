@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="background-image">
+<header class="background-image">
     <div class="container">
         <ul class="navbar">
             <li class="logo">
@@ -34,7 +34,8 @@
             cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
         <button class="learn-more-margins btn align-center">LEARN MORE</button>
     </div>
-</div>
+</header>
+<main>
 <div class="container">
     <div class="d-flex block">
         <img class="mr-100 width-320" src="plain.png">
@@ -55,10 +56,11 @@
 <div class="background-image-video">
     <div class="container">
         <div id="video_container">
-            <video id="video" src="videoplayback.mp4" width="300">
+            <video class="video" id="video" poster="transparent.png" src="videoplayback.mp4" width="300">
 
             </video>
-            <button class="btn" id="play_button">Play</button>
+            <button class="round-play-button" id="play_button">Play</button>
+
         </div>
     </div>
 </div>
@@ -137,24 +139,18 @@
         <button class="d-block btn align-center">WE ARE HIRING</button>
     </div>
 </div>
+</main>
+<footer>
+
+</footer>
 </body>
 </html>
 <script>
     var playButton = document.getElementById("play_button");
-    // Event listener for the play/pause button
     playButton.addEventListener("click", function () {
         if (video.paused == true) {
-            // Play the video
             video.play();
-
-            // Update the button text to 'Pause'
-            playButton.innerHTML = "Pause";
-        } else {
-            // Pause the video
-            video.pause();
-
-            // Update the button text to 'Play'
-            playButton.innerHTML = "Play";
+            playButton.setAttribute('hidden','true');
         }
     });
 </script>
