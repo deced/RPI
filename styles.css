@@ -93,6 +93,11 @@ h1, h2, h3, h4 {
     display: block;
 }
 
+.text-align-left {
+    text-align: left;
+    display: block;
+}
+
 .block {
     margin: 100px;
 }
