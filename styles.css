@@ -233,6 +233,20 @@ label {
     cursor: pointer;
 }
 
+.form-control
+{
+    border: #e5e5e5 1px solid;
+    border-radius: 5px;
+    color: #413d4b;
+    padding: 7px;
+    resize: none;
+    display: block;
+    margin-bottom: 15px;
+}
+.form-control:focus
+{
+    border: 2px solid #ced4da;
+}
 .watch-story
 {
     position: absolute;
