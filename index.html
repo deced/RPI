@@ -59,8 +59,8 @@
             <video class="video" id="video" poster="transparent.png" src="videoplayback.mp4" width="300">
 
             </video>
-            <button class="round-play-button" id="play_button">Play</button>
-
+            <img src="play.png" class="round-play-button" id="play_button">Play</img>
+            <h3 id="watch-story" class="watch-story color-white text-align-center">WATCH OUR STORY</h3>
         </div>
     </div>
 </div>
@@ -147,9 +147,12 @@
 </html>
 <script>
     var playButton = document.getElementById("play_button");
+    var watchText = document.getElementById('watch-story');
+
     playButton.addEventListener("click", function () {
         if (video.paused == true) {
             video.play();
+            watchText.style.display = 'none';
             playButton.setAttribute('hidden','true');
         }
     });

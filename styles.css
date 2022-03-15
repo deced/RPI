@@ -196,10 +196,11 @@ label {
 .btn {
     cursor: pointer;
 }
-.video
-{
+
+.video {
     width: 100%;
 }
+
 .mb-10 {
     margin-bottom: 10px;
 }
@@ -209,16 +210,18 @@ label {
     margin-right: 100px;
 }
 
-.round-play-button
+.round-play-button {
+    position: absolute;
+    left: 760px;
+    top: 1550px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.watch-story
 {
     position: absolute;
-    left: 660px;
-    top: 1550px;
-    padding: 100px;
-    border-radius: 100%;
-    border-color: white;
-    color: white;
-    background-color: transparent;
-    border: solid;
-    cursor: pointer;
+    top: 1660px;
+    left: 730px;
 }
