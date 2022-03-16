@@ -26,18 +26,18 @@
 }
 
 .background-image-video {
-    background: url("video.png");
+    background: url("../images/video.png");
     background-size: cover;
 }
 
 .background-image {
-    background: url(Background.png);
+    background: url(../images/Background.png);
     height: 650px;
     background-size: cover;
 }
 
 .background-image-footer {
-    background: url("background-footer.png");
+    background: url("../images/background-footer.png");
     height: 350px;
 }
 
