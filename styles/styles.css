@@ -39,6 +39,7 @@
 .background-image-footer {
     background: url("../images/background-footer.png");
     height: 350px;
+    background-size: cover;
 }
 
 .w-full {
