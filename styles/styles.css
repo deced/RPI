@@ -296,6 +296,12 @@ label {
     cursor: pointer;
 }
 
+.round-play-button:hover
+{
+    color: #00e0d0;
+    border-color: #00e0d0;
+}
+
 .form-control
 {
     border: #e5e5e5 1px solid;
