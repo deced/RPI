@@ -284,11 +284,13 @@ label {
     margin-left: 100px;
     margin-right: 100px;
 }
-
+.mt-100{
+    margin-top: 100px;
+}
 .round-play-button {
     position: absolute;
-    left: 760px;
-    top: 1550px;
+    left: 900px;
+    top: 1480px;
     width: 100px;
     height: 100px;
     cursor: pointer;
@@ -311,8 +313,8 @@ label {
 .watch-story
 {
     position: absolute;
-    top: 1660px;
-    left: 730px;
+    top: 1600px;
+    left: 860px;
 }
 
 .width-250{
