@@ -155,6 +155,10 @@ h1, h2, h3, h4 {
     color: #00e0d0;
 }
 
+.footer-link:hover{
+    color: #00e0d0;
+}
+
 .flex-wrap {
     flex-wrap: wrap;
 }
@@ -292,10 +296,10 @@ label {
 {
     width: 400px;
 }
-.logo
-{
+.logo {
     margin-right: 100px;
     width: 120px;
+}
 
 .pt-15{
     padding-top: 15px;
