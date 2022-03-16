@@ -3,6 +3,7 @@
 <head>
     <title>Lending Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
@@ -188,10 +189,12 @@
 <footer>
     <div class="background-image-footer">
         <div class="container">
-            <div class="d-flex pt-65">
-                <div class="width-250 ">
-                    <img src="logo.png">
-                    <label class="brand-name">TAJAM</label>
+            <div class="d-flex pt-65 justify">
+                <div>
+                    <div class="d-flex">
+                        <img src="logo.png">
+                        <label class="brand-name">TAJAM</label>
+                    </div>
                     <label class="color-white text-align-left pt-15">
                         lorem quis bibendum auctor, nisi elit
                         consequat ipsum, nec sagittis sem nibh elit.
@@ -199,32 +202,46 @@
                         non mauris vitae erat in elit
                     </label>
                 </div>
-                <div class="ml-100 width-250 ">
-                    <b class="color-white roboto">OUR STUDIO</b>
-                    <label class="color-white text-align-left pt-15">
-                        Ruko cucruk, JI. Radio luar dalem jos
-                        No.12 - 13, Kalideres - Jakarta Barat
-                        11480 - Indonesia
-                    </label>
-                    <label class="color-white text-align-left pt-15">
-                        (+62) 21-2224 3333</label>
+                <div class="ml-100">
+                    <h4 class="color-white">OUR STUDIO</h4>
+                    <div class="d-flex pt-15">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <label class="color-white text-align-left">
+                            Ruko cucruk, JI. Radio luar dalem jos
+                            No.12 - 13, Kalideres - Jakarta Barat
+                            11480 - Indonesia
+                        </label>
+                    </div>
+                    <div class="d-flex mt-20">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <label class="color-white text-align-left">
+                            (+62) 21-2224 3333</label>
+                    </div>
                 </div>
-                <div class="ml-100 width-250">
-                    <b class="color-white roboto">STAY IN TOUCH</b>
-                    <div class=" pt-15">
-                        <input class="form-control" placeholder="Subscribe our newsletter">
-                        <button class="btn align-center ">L</button>
+                <div class="ml-100">
+                    <h4 class="color-white roboto">STAY IN TOUCH</h4>
+                    <div class="d-flex pt-15">
+                        <input class="footer-control" placeholder="Subscribe our newsletter">
+                        <img class="btn-send" src="send.png">
+                    </div>
+                    <div class="d-flex justify mt-20">
+                        <i class="fa fa-facebook color-white font-size-1em social-icon" aria-hidden="true"></i>
+                        <i class="fa fa-twitter color-white font-size-1em social-icon" aria-hidden="true"></i>
+                        <i class="fa fa-dribbble color-white font-size-1em social-icon" aria-hidden="true"></i>
+                        <i class="fa fa-instagram color-white font-size-1em social-icon" aria-hidden="true"></i>
+                        <i class="fa fa-youtube-play color-white font-size-1em social-icon" aria-hidden="true"></i>
                     </div>
                 </div>
             </div>
+            <div class="d-flex justify">
+                <ul class="d-flex mt-20 ">
+                    <li class="footer-link mr-50 mt-20">HELP</li>
+                    <li class="footer-link mr-50 mt-20">TERMS & CONDITION</li>
+                    <li class="footer-link mr-50 mt-20">PRIVACY</li>
+                </ul>
 
-            <ul class="d-flex mt-40 ">
-                <li class="footer-link mr-50 mt-20">HELP</li>
-                <li class="footer-link mr-50 mt-20">TERMS & CONDITION</li>
-                <li class="footer-link mr-50 mt-20">PRIVACY</li>
-            </ul>
-
-           <b class="color-white font-size-13 ml-auto roboto"> Copyright © 2015 - Tajem Creative</b>
+                <b class="color-white font-size-13 ml-auto mt-auto roboto"> Copyright © 2015 - Tajem Creative</b>
+            </div>
         </div>
     </div>
 </footer>

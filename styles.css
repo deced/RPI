@@ -2,16 +2,37 @@
     margin: 0;
     padding: 0;
 }
+.social-icon
+{
+    text-align: center;
+    width: 16px;
+    height: 16px;
+    border: white 1px solid;
+    padding: 10px;
+    border-radius: 100%;
+    cursor: pointer;
 
+}
+
+.social-icon:hover
+{
+    color: #00e0d0;
+    border-color: #00e0d0;
+}
+
+.font-size-1em
+{
+    font-size: 1em !important;
+}
 
 .background-image-video {
-    background: url("video.png") no-repeat center center fixed;
+    background: url("video.png");
     background-size: cover;
 }
 
 .background-image {
-    background: url("Background.png") no-repeat center center fixed;
-    height: 800px;
+    background: url(Background.png);
+    height: 650px;
     background-size: cover;
 }
 
@@ -45,6 +66,15 @@
     font-size: 13px;
 }
 
+.mt-auto
+{
+    position:relative;
+    margin-top:auto;
+}
+.fa{
+    margin-right: 3px;
+    color: white;
+}
 .ml-auto{
     position:relative;
     margin-left:auto;
@@ -308,3 +338,35 @@ label {
 .roboto{
     font-family: "Roboto", sans-serif;
 }
+
+.footer-control
+{
+    background-color: transparent;
+    padding: 10px;
+    border: #e5e5e5 1px solid;
+    color: #e5e5e5;
+}
+
+.btn-send
+{
+    width: 60px;
+    margin-left: 15px;
+    padding: 3px;
+    height: 40px;
+    object-fit: contain;
+    background-color: rgba(155,147,174,0.4);
+
+    cursor: pointer;
+}
+
+.btn-send:hover
+{
+    background-color: rgba(155,147,174,0.6);
+}
+
+.footer-control:focus
+{
+    outline: none;
+    border: 1px solid #00e0d0;
+}
+
