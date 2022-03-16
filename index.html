@@ -249,13 +249,15 @@
 <script>
     var playButton = document.getElementById("play_button");
     var watchText = document.getElementById('watch-story');
-
+    var myVideo = document.getElementById('video');
     playButton.addEventListener("click", function () {
         if (video.paused == true) {
             video.play();
             watchText.style.display = 'none';
             playButton.setAttribute('hidden', 'true');
+            myVideo.setAttribute("controls","");
         }
+
     });
 </script>
 </body>
